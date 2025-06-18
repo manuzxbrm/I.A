@@ -72,6 +72,7 @@ const perguntas = [
     },
 ];
 
+
 let atual = 0;
 let perguntaAtual;
 
@@ -80,11 +81,16 @@ function mostraPergunta() {
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     mostraAlternativas();
 }
+
 function mostraAlternativas() {
     for (const alternativa of perguntaAtual.alternativas) {
-        const botaoAlternativas = document.createElement("button");
-        botaoAlternativas.textContent = alternativa;
-        caixaAlternativas.appendChild(botaoAlternativas);
+        const botaoAlternativa = document.createElement("button");
+        botaoAlternativa.textContent = alternativa.texto;
+        botaoAlternativa.addEventListener("click", function() {
+            atual++;
+            mostraPergunta()
+        })
+        caixaAlternativas.appendChild(botaoAlternativa);
     }
 }
 
