@@ -32,8 +32,8 @@ button {
     background-color: var(--cor-secundaria);
     color: var(--cor-texto)
     border: none;
-    border-radius: 50px;
-    padding: 15px;
+    border-radius: 15px;
+    padding: 50px;
     transition: background-color 0.3s;
 }
 
