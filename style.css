@@ -15,6 +15,7 @@ body {
     align-items: center;
     min-height: 100vh;
     font-size: 30px;
+    margin: 10px;
 }
 
 .caixa-principal{
@@ -27,7 +28,6 @@ body {
 
 h1{
     color: var(--cor-destaque)
-    margin-bottom: 10px;
 }
 
 button {
