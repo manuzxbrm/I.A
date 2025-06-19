@@ -23,11 +23,11 @@ body {
     max-width: 600px;
     text-align: center;
     padding: 20px;
-    line-height: 1.6;
 }
 
 h1{
     color: var(--cor-destaque)
+    line-height: 1.6;
 }
 
 button {
