@@ -27,7 +27,6 @@ body {
 
 h1{
     color: var(--cor-destaque)
-    line-height: 1.6;
 }
 
 button {
