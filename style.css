@@ -14,12 +14,12 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-size: 10em;
+    font-size: 2em;
 }
 
 .caixa-principal{
     background-color: var(--cor-principal);
-    width: 90%;
+    width: 5%;
     max-width: 600px;
     text-align: center;
     padding: 20px;
